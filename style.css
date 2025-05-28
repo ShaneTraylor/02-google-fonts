@@ -2,11 +2,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Karla', Arial, sans-serif;
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
   font-size: 18px; /* Increased font size for better readability */
+}
+
+/* Headings use Fredoka */
+.hero h1,
+.how-it-works h2,
+.features h2 {
+  font-family: 'Fredoka', Arial, sans-serif;
 }
 
 /* Hero Section */
@@ -42,6 +49,7 @@ body {
   cursor: pointer;
   padding: 1em 2em; /* Increased button size using em */
   font-size: 1.1em; /* Increased font size using em */
+  font-family: 'Fredoka', Arial, sans-serif;
 }
 
 .hero button:hover {
